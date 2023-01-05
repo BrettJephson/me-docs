@@ -118,3 +118,4 @@
       * [A .snyk policy file in a different directory from the manifest file](docs/snyk-cli/test-for-vulnerabilities/using-a-.snyk-file-in-a-separate-directory-than-the-manifest-file.md)
       * [CLI test results](docs/snyk-cli/test-for-vulnerabilities/view-cli-test-results.md)
       * [Why is my setup.py file failing to scan or finding 0 dependencies?](docs/snyk-cli/test-for-vulnerabilities/why-is-my-setup.py-file-failing-to-scan-or-finding-0-dependencies.md)
+* [Test: expandable](test-expandable.md)
