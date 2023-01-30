@@ -1,5 +1,5 @@
 # Table of contents
 
-* [New Page](README.md)
-* [Page 5](page-5.md)
-* [Page 9](page-9.md)
+* [Page 1](README.md)
+* [Page 2](page-2/README.md)
+  * [Page 4](page-2/page-4.md)
