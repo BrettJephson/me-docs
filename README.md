@@ -20,3 +20,60 @@ A complex list:
 * List item 3
 * List item 4
 * List item 5
+
+An image:
+
+<figure><img src=".gitbook/assets/logo-test2.jpeg" alt=""><figcaption><p>A caption</p></figcaption></figure>
+
+An expandable block:
+
+<details>
+
+<summary>Testing expandable</summary>
+
+Some content in the expandable&#x20;
+
+```
+And code here
+```
+
+</details>
+
+### Heading
+
+{% hint style="warning" %}
+DO something
+{% endhint %}
+
+{% tabs %}
+{% tab title="Tab 1" %}
+Tab 1 content
+
+> Woo hoo
+{% endtab %}
+
+{% tab title="Tab 2" %}
+Tab 2 content
+{% endtab %}
+{% endtabs %}
+
+> This is a quote from someone
+
+A todo list:
+
+* [ ] Todo 1
+* [ ] Todo 2
+  * [ ] Sub\
+    Todo 3
+    * [ ] Sub Todo again\
+
+
+{% embed url="https://www.google.com" %}
+
+| Table       | aas  | xcvx |
+| ----------- | ---- | ---- |
+| a           | vcvx | aaa  |
+| aa          | cxzd |      |
+| <p><br></p> |      |      |
+|             |      |      |
+
