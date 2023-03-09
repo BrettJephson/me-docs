@@ -42,24 +42,58 @@ And code here
 ### Heading
 
 {% hint style="warning" %}
-DO something
+DO somethi SSng
 {% endhint %}
 
 {% tabs %}
 {% tab title="Tab 1" %}
 Tab 1 content
 
-> Woo hoo
+> Woo hoo SDS&#x20;
 {% endtab %}
 
 {% tab title="Tab 2" %}
-Tab 2 content
+Tab 2 conten St
 {% endtab %}
 {% endtabs %}
 
 > This is a quote from someone
 
 A todo list:
+
+pandable block:
+
+<details>
+
+<summary>Testing expandable</summary>
+
+Some content in the expandable&#x20;
+
+```
+And code here
+```
+
+</details>
+
+### Heading
+
+{% hint style="warning" %}
+DO somethi SSng
+{% endhint %}
+
+{% tabs %}
+{% tab title="Tab 1" %}
+Tab 1 content
+
+> Woo hoo SDS&#x20;
+{% endtab %}
+
+{% tab title="Tab 2" %}
+Tab 2 conten St
+{% endtab %}
+{% endtabs %}
+
+> This is a quote from someone
 
 * [ ] Todo 1
 * [ ] To do 2
