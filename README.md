@@ -10,8 +10,6 @@ ist it
   * List item 2a
   * List item 2b
     * List item 2ba
-    * List item 2bb
-      * List item 2bba
     * List item 2bc
     * List item 2bd
       * List item 2bda
@@ -64,7 +62,7 @@ Tab 2 content
 A todo list:
 
 * [ ] Todo 1
-* [ ] Todo 2
+* [ ] To do 2
   * [ ] Sub\
     Todo 3
     * [ ] Sub Todo again\
