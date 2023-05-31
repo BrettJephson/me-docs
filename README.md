@@ -21,6 +21,9 @@ ist it
 * List item 4
 * List item 5
 
+```mermaid  fullWidth="true"
+```
+
 An image:
 
 <figure><img src=".gitbook/assets/logo-test2.jpeg" alt=""><figcaption><p>A caption</p></figcaption></figure>
