@@ -35,7 +35,7 @@ An image:
 
 <div>
 
-<figure><img src=".gitbook/assets/logo-test2.jpeg" alt=""><figcaption><p>A caption</p></figcaption></figure>
+<figure><img src=".gitbook/assets/logo-test2.jpeg" alt=""><figcaption></figcaption></figure>
 
  
 
