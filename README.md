@@ -1,20 +1,25 @@
 # Page 1
 
-This is a paragraph :thumbsup: with an emoji.
+_This_ is a paragraph[^1] :thumbsup: with an emoji.&#x20;
 
-A complex list:
+$$
+f(x) = x * e^{2 pi i \xi x}
+$$
+
+`A complex list:`
 
 ist it
 
 * List item 2
-  * List item 2a
-  * List item 2b
+  - ***
+  - List item 2a
+  - List item 2b
     * List item 2ba
     * List item 2bc
     * List item 2bd
       * List item 2bda
       * List item 2bdb
-  * List item 2c
+  - List item 2c
 * List item 1
   * List item 1a
 * List item 3
@@ -22,11 +27,21 @@ ist it
 * List item 5
 
 ```mermaid  fullWidth="true"
+graph TD
+  Mermaid --> Diagram
 ```
 
 An image:
 
+<div>
+
 <figure><img src=".gitbook/assets/logo-test2.jpeg" alt=""><figcaption><p>A caption</p></figcaption></figure>
+
+ 
+
+<figure><img src=".gitbook/assets/logo-test2.jpeg" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 An expandable block:
 
@@ -34,7 +49,15 @@ An expandable block:
 
 <summary>Testing expandable</summary>
 
-Some content in the expandable&#x20;
+It comes down to what you're looking to get out of the experience. For example, you may engage in the community as a delegate. In such case, it would behoove you to acquire as much TORQ as possible in order to gain sufficient voting power.
+
+Maybe you want to access liquidity to go long on a new token coming out. You can deposit a blue-chip like WBTC or WETH and receive a loan up to 83% of the value (while earning TORQ). You can use this to trade and repay as preferred.
+
+_This is not financial advice._
+
+If you're simply interested in extracting as much profit as possible, consider depositing collateral for a loan through our Borrow product then head to Boost and deposit your received loan. In this case, you will earn TORQ rewards from Borrow and Boost while your deposit is earning the spread between interest rates.
+
+If you choose not to repay, eventually, interest accrued will increase your loan-to-value (LTV) ratio pushing it into liquidatable range. In such case, a sliver of your collateral asset may be liquidated to ensure the health of your position.
 
 ```
 And code here
@@ -59,6 +82,18 @@ Tab 1 content
 Tab 2 conten St
 {% endtab %}
 {% endtabs %}
+
+{% tabs %}
+{% tab title="First Tab" %}
+
+{% endtab %}
+
+{% tab title="Second Tab" %}
+
+{% endtab %}
+{% endtabs %}
+
+
 
 > This is a quote from someone
 
@@ -114,3 +149,6 @@ Tab 2 conten St
 | <p><br></p> |      |      |
 |             |      |      |
 
+
+
+[^1]: 
