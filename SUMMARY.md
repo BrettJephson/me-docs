@@ -2,4 +2,4 @@
 
 * [Page 1](README.md)
 * [Page 2](page-2.md)
-* [Anchor to page](page-2.md#page-heading)
+* [Anchor to page](README.md)
