@@ -2,7 +2,7 @@
 
 Some stuff 123
 
-_This_ is a paragraph[^1] :thumbsup: with an emoji.&#x20;
+_This_ is a paragraph :thumbsup: with an emoji.
 
 $$
 f(x) = x * e^{2 pi i \xi x}
@@ -11,6 +11,12 @@ $$
 `A complex list:`
 
 ist it
+
+* Test 1
+* Test 2
+*
+
+
 
 <div>
 
@@ -52,7 +58,7 @@ ist it
 
 </div>
 
-```mermaid  fullWidth="true"
+```mermaid
 graph TD
   Mermaid --> Diagram
 ```
@@ -101,25 +107,13 @@ DO somethi SSng
 {% tab title="Tab 1" %}
 Tab 1 content
 
-> Woo hoo SDS&#x20;
+> Woo hoo SDS
 {% endtab %}
 
 {% tab title="Tab 2" %}
 Tab 2 conten St
 {% endtab %}
 {% endtabs %}
-
-{% tabs %}
-{% tab title="First Tab" %}
-
-{% endtab %}
-
-{% tab title="Second Tab" %}
-
-{% endtab %}
-{% endtabs %}
-
-
 
 > This is a quote from someone
 
@@ -131,7 +125,7 @@ pandable block:
 
 <summary>Testing expandable</summary>
 
-Some content in the expandable&#x20;
+Some content in the expandable
 
 ```
 And code here
@@ -149,7 +143,7 @@ DO somethi SSng
 {% tab title="Tab 1" %}
 Tab 1 content
 
-> Woo hoo SDS&#x20;
+> Woo hoo SDS
 {% endtab %}
 
 {% tab title="Tab 2" %}
@@ -163,8 +157,7 @@ Tab 2 conten St
 * [ ] To do 2
   * [ ] Sub\
     Todo 3
-    * [ ] Sub Todo again\
-
+    * [ ] Sub Todo again\\
 
 {% embed url="https://www.google.com" %}
 
@@ -174,7 +167,3 @@ Tab 2 conten St
 | aa          | cxzd |      |
 | <p><br></p> |      |      |
 |             |      |      |
-
-
-
-[^1]: 
