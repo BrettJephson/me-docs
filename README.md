@@ -1,6 +1,6 @@
-# Page 1
+# Page y
 
-Link [#page-heading](page-2.md#page-heading "mention")
+Link [#page-heading](page-2.md#page-heading "mention") 888y
 
 _This_ is a paragraph :thumbsup: with an emoji.
 
