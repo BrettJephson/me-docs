@@ -1,6 +1,5 @@
 # Table of contents
 
-* [Page y](README.md)
-  * [😀 Page 38](readme/page-3.md)
+* [Page 1](README.md)
 * [Page 2](page-2.md)
-* [Anchor to page 123](README.md#testing-expandable)
+* [Anchor to page 123](page-2.md#page-heading)
