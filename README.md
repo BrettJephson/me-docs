@@ -5,6 +5,12 @@ Link [#page-heading](page-2.md#page-heading "mention")
 _This_ is a paragraph :thumbsup: with an emoji.
 
 $$
+asdasdasdsadxsxz~~
+$$
+
+<img src=".gitbook/assets/file.excalidraw.svg" alt="" class="gitbook-drawing">
+
+$$
 f(x) = x * e^{2 pi i \xi x}
 $$
 
@@ -15,8 +21,6 @@ ist it
 * Test 1
 * Test 2
 *
-
-
 
 <div>
 
