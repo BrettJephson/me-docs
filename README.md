@@ -165,9 +165,4 @@ Tab 2 conten St
 
 {% embed url="https://www.google.com" %}
 
-| Table       | aas  | xcvx |
-| ----------- | ---- | ---- |
-| a           | vcvx | aaa  |
-| aa          | cxzd |      |
-| <p><br></p> |      |      |
-|             |      |      |
+<table><thead><tr><th>Table</th><th>aas</th><th data-type="content-ref">xcvx</th></tr></thead><tbody><tr><td>a</td><td>vcvx</td><td><a href="https://app.gitbook-staging.com/o/M6BrxtuiVnqv5V3cgPu4/s/im5PiZkP0JmfF3k2LNeq/">New Test Space</a></td></tr><tr><td>aa</td><td>cxzd</td><td></td></tr><tr><td><br></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr></tbody></table>
