@@ -1,6 +1,6 @@
 # 👋 Page 1
 
-Link [#page-heading](page-2.md#page-heading "mention") 565433
+Link [[#page-heading](page-2.md#page-heading "mention")](./#heading) 565433
 
 dsfsdf
 
