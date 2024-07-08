@@ -118,7 +118,7 @@ Tab 1 content
 > Woo hoo SDS
 {% endtab %}
 
-{% tab title="Tab 2" %}
+{% tab title="Tab test 2" %}
 Tab 2 conten St
 {% endtab %}
 {% endtabs %}
