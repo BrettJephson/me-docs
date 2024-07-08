@@ -112,7 +112,7 @@ DO somethi SSng
 {% endhint %}
 
 {% tabs %}
-{% tab title="Tab 1" %}
+{% tab title="Tab test 1" %}
 Tab 1 content
 
 > Woo hoo SDS
