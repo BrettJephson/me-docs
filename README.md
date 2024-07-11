@@ -1,5 +1,9 @@
 # 👋 Page 1
 
+{% content-ref url="https://app.gitbook-staging.com/o/M6BrxtuiVnqv5V3cgPu4/s/n5l5EjQYqXHyPJqrEZb7/" %}
+[This is a test 1](https://app.gitbook-staging.com/o/M6BrxtuiVnqv5V3cgPu4/s/n5l5EjQYqXHyPJqrEZb7/)
+{% endcontent-ref %}
+
 Link [[#page-heading](page-2.md#page-heading "mention")](./#heading) 565433
 
 dsfsdf
