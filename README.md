@@ -10,3 +10,20 @@ Test table:
 
 </details>
 
+<details>
+
+<summary>Test w/ hint</summary>
+
+{% hint style="info" %}
+Test of a hint
+{% endhint %}
+
+</details>
+
+{% hint style="info" %}
+Test of a hint
+{% endhint %}
+
+> {% hint style="info" %}
+> Test of a hint
+> {% endhint %}
