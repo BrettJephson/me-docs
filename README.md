@@ -4,15 +4,13 @@ Lorem ipsum dolor sit amet,  $$f(x) = x * e^{2 pi i \xi x}$$ consectetur [#test-
 
 Proin venenatis eget massa nec congue. Donec dignissim augue et porta hendrerit. Praesent efficitur purus in libero sodales, quis luctus magna vestibulum. Sed varius mauris dolor, quis fringilla erat faucibus nec. Fusce risus ipsum, molestie eget porta vel, sodales eu ex. Curabitur accumsan ipsum vel tellus scelerisque consectetur. Proin imperdiet arcu ut bibendum malesuada. Curabitur semper pulvinar neque, congue placerat dolor convallis ac.
 
-Test [Link](https://www.test.com)  test [page-1.md](page-1.md "mention") test
+Test [&#x4C;_&#x69;&#x6E;_&#x6B;](https://www.test.com)  test [page-1.md](page-1.md "mention") test [Brett Jephson](https://app.gitbook-staging.com/u/i5t9RI4CMocinkmgp9IDmgR2xOG2 "mention") test.
 
 <details>
 
 <summary>Test expandable</summary>
 
-Test table:
 
-<table data-full-width="true"><thead><tr><th width="142">Title</th><th>Description</th><th width="100" data-type="checkbox">Active</th></tr></thead><tbody><tr><td>Thing 1 test</td><td></td><td>true</td></tr><tr><td>Thing 2</td><td></td><td>true</td></tr><tr><td>Thing 3</td><td></td><td>true</td></tr></tbody></table>
 
 </details>
 
@@ -33,3 +31,6 @@ Test of a hint
 {% hint style="info" %}
 > Test of a hint
 {% endhint %}
+
+<table><thead><tr><th>Test 3</th><th>Test 2</th><th width="128">Ttest 1</th><th width="100">Test 4</th></tr></thead><tbody><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr></tbody></table>
+
