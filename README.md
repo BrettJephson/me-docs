@@ -32,5 +32,5 @@ Test of a hint
 > Test of a hint
 {% endhint %}
 
-<table><thead><tr><th>Test 3</th><th>Test 2</th><th width="128">Ttest 1</th><th width="100">Test 4</th></tr></thead><tbody><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr></tbody></table>
+<table><thead><tr><th>Select<select multiple><option value="xGhK9JVhPant" label="Test 1" color="blue"></option><option value="wcgopSI0KLkM" label="Test 2" color="blue"></option><option value="92QhaA84W2zT" label="Test 3" color="blue"></option></select></th><th>Test 2</th><th width="128">Ttest 1</th><th width="100">Test 4</th></tr></thead><tbody><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr></tbody></table>
 
