@@ -8,3 +8,4 @@ icon: globe
 [page-3-123.md](page-3-123.md)
 {% endcontent-ref %}
 
+Test <sup>123</sup>
