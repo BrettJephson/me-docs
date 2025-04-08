@@ -8,4 +8,4 @@ icon: globe
 [page-3-123.md](page-3-123.md)
 {% endcontent-ref %}
 
-Water<sup>H₂O</sup> t<sup>e</sup>s<sub>t</sub>&#x20;
+Water<sup>H₂O</sup> ts<sub>t<sup>e</sup></sub>&#x20;
