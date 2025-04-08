@@ -9,3 +9,5 @@ icon: globe
 {% endcontent-ref %}
 
 Water<sup>H₂O</sup> ts<sub>t<sup>e<sup>e<sup>e</sup></sup></sup></sub>&#x20;
+
+Test **<i><i>Test italic</i></i>**
