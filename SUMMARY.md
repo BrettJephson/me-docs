@@ -6,11 +6,11 @@
 
 ## Group 1
 
-* [Localize your docs with variants in GitBook](group-1/localize-your-docs-with-variants-in-gitbook/README.md)
-  * [Page 3 123](group-1/localize-your-docs-with-variants-in-gitbook/page-3-123.md)
+* [Localize your docs with variants in GitBook](group-1/localize-your-docs-with-variants-in-gitbook.md)
+  * [Page 3 123](group-1/page-3-123.md)
 
 ***
 
-* [Test](group-1/localize-your-docs-with-variants-in-gitbook/page-3-123.md)
+* [Test](group-1/page-3-123.md)
 * [Page 1](page-1-1.md)
-* [Test](group-1/localize-your-docs-with-variants-in-gitbook/page-3-123.md#header)
+* [Test](group-1/page-3-123.md#header)
