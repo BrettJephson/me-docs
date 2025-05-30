@@ -46,12 +46,16 @@ Test of a hint
 
 {% columns %}
 {% column %}
-Test column 1 abc
+Test column 1
 {% endcolumn %}
 
 {% column %}
-Test column 2 def
+Test column 2
 {% endcolumn %}
 {% endcolumns %}
 
 <table><thead><tr><th width="258.15625">Select<select multiple><option value="xGhK9JVhPant" label="Test 1" color="blue"></option><option value="wcgopSI0KLkM" label="Test 2" color="blue"></option><option value="92QhaA84W2zT" label="Test 3" color="blue"></option></select></th><th>Test 2</th><th width="128">Ttest 1</th><th width="100">Test 4</th></tr></thead><tbody><tr><td><span data-option="xGhK9JVhPant">Test 1, </span><span data-option="wcgopSI0KLkM">Test 2</span></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr></tbody></table>
+
+<div data-full-width="true"><figure><img src="https://images.unsplash.com/photo-1745450055535-86a87a8767a5?crop=entropy&#x26;cs=srgb&#x26;fm=jpg&#x26;ixid=M3wxOTcwMjR8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDg2MTg1Nzd8&#x26;ixlib=rb-4.1.0&#x26;q=85" alt=""><figcaption></figcaption></figure> <figure><img src="https://images.unsplash.com/photo-1746003288323-89dba68721f6?crop=entropy&#x26;cs=srgb&#x26;fm=jpg&#x26;ixid=M3wxOTcwMjR8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDg2MTg1Nzd8&#x26;ixlib=rb-4.1.0&#x26;q=85" alt=""><figcaption></figcaption></figure></div>
+
+<figure><img src="https://images.unsplash.com/photo-1746045470133-00c22b9c9911?crop=entropy&#x26;cs=srgb&#x26;fm=jpg&#x26;ixid=M3wxOTcwMjR8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDg2MTg1OTl8&#x26;ixlib=rb-4.1.0&#x26;q=85" alt=""><figcaption></figcaption></figure>
