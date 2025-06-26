@@ -1,18 +1,4 @@
----
-layout:
-  title:
-    visible: false
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
----
-
-# This is a very long title, is there
+# Page 1
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec suscipit condimentum dui non tempus. Nullam nec molestie massa. Vivamus sagittis, nunc quis interdum maximus, libero lacus fermentum urna, non bibendum sapien felis et sem. Cras vulputate dui dapibus urna sodales posuere. Fusce blandit ornare iaculis. Etiam a viverra sapien. Donec id commodo augue. Duis odio augue, commodo molestie libero sed, interdum rutrum tellus. Aliquam erat volutpat. Donec sagittis libero nisl, at aliquet dui vulputate eget. Aenean felis urna, aliquam sed urna ac, fermentum dignissim sem.
 
