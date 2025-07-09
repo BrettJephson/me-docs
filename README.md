@@ -21,6 +21,10 @@ layout:
 **L**orem ipsum dolor sit amet, $$f(x) = x * e^{2 pi i \xi x}$$ consectetur [#test-expandable](./#test-expandable "mention") elit. Nam nisi nisi, ornare et viverra id, luctus sed diam. Suspendisse ac dictum orci, nec pellentesque arcu. In convallis viverra massa, nec imperdiet <img src=".gitbook/assets/Screenshot 2024-12-10 at 17.16.11.png" alt="" data-size="original"> libero tristique et. Duis interdum fringilla nisl, eu hendrerit magna placerat ac. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Proin sagittis mattis varius. Etiam quis rutrum enim, et ultrices lacus. Fusce urna dui, cursus vitae dictum et, dignissim tristique quam.
 
 **Spin** the wheel - [https://wheelofnames.com/8cf-rth](https://wheelofnames.com/8cf-rth)
+
+```
+// Some code
+```
 {% endcolumn %}
 
 {% column %}

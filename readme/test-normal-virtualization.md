@@ -20,7 +20,7 @@
 * In line with January
 * Good performance on powered by ICP traffic
 
-
+sdfsd
 
 </details>
 
@@ -217,7 +217,7 @@ Some bug fixes 🐛
 * We have a newsletter almost ready to send, but will hold off until next week to avoid spamming users.
 * I’m working on a new guide on site structure, plus we have a couple more guides nearly finished by freelancers. Should hopefully start going live late this week/early next week.
 
-**Website**
+Website
 
 <figure><img src="../.gitbook/assets/CleanShot 2025-03-11 at 12.37.42.png" alt=""><figcaption><p>API docs landing page</p></figcaption></figure>
 
@@ -227,16 +227,16 @@ Some bug fixes 🐛
 
 * The [pricing page](https://www.gitbook.com/pricing) has been updated:
   * Enterprise card added
-  * Card designs have been refined (removed icons and general tidy up)
+  * Card **designs** have been refined (removed icons and general tidy up)
   * Link to the calculator added to Premium and Ultimate cards
   * Calculator moved up the page (inc. link back to the cards)
 
 ## <mark style="color:blue;">💸 Sales</mark>
 
-* Wrapped up Q1 renewals - 88% retention (2 unmanaged churns, Snyk contraction)
-* Nvidia signed
-* Focused on onboarding Louis to the team last week
-* He's learning quickly and is already leading calls
+* Wr**apped up Q1 renewals - 88% retention (2 unmanaged churns, Snyk contraction)**
+* **Nvidia signed**
+* **Focused on** <sup>onboarding</sup> **Louis to the team last week**
+* **He's learning qu**ickly and is already leading calls
 
 {% hint style="warning" %}
 **Interesting case from last week**\
