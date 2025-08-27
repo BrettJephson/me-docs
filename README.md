@@ -1,5 +1,19 @@
 # Page 123
 
+{% content-ref url="page-1.md" %}
+[page-1.md](page-1.md)
+{% endcontent-ref %}
+
+{% columns %}
+{% column width="75%" %}
+
+{% endcolumn %}
+
+{% column width="25%" %}
+
+{% endcolumn %}
+{% endcolumns %}
+
 {% embed url="https://www.figma.com/design/cA9xqRVpcnzxbuUtZSXplF/Untitled?node-id=0-1&p=f&t=aVxI01D68vF2fNZB-0" %}
 
 Lorem ipsum dolor sit amet, $$f(x) = x * e^{2 pi i \xi x}$$ consectetur [#test-expandable](./#test-expandable "mention") elit. Nam nisi nisi, ornare et viverra id, luctus sed diam. Suspendisse ac dictum orci, nec pellentesque arcu. In convallis viverra massa, nec imperdiet <img src=".gitbook/assets/Screenshot 2024-12-10 at 17.16.11.png" alt="" data-size="original"> libero tristique et. Duis interdum fringilla nisl, eu hendrerit magna placerat ac. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Proin sagittis mattis varius. Etiam quis rutrum enim, et ultrices lacus. Fusce urna dui, cursus vitae dictum et, dignissim tristique quam.
