@@ -78,7 +78,6 @@ Test column 2 def
 
 {% embed url="https://www.figma.com/design/aZsMhSIQp2xgRIDWpvRUqQ/Spine" %}
 
-        <a href="https://resources.directa24.com/cashin/payment_method/square/BE.svg">
-                    <img src="https://content.gitbook.com/content/MbWhFDLCv8vhFXJO5nrL/blobs/7FZbv6RGsiA7Kmo6w1mA/BE.svg" alt="" data-size="line">
-                </a>
-                <img src="https://resources.directa24.com/cashin/payment_method/square/BE.svg" alt="">
+<p>
+<a href="https://resources.directa24.com/cashin/payment_method/square/BE.svg"><img src="https://content.gitbook.com/content/MbWhFDLCv8vhFXJO5nrL/blobs/7FZbv6RGsiA7Kmo6w1mA/BE.svg" alt="" data-size="line"></a><img src="https://resources.directa24.com/cashin/payment_method/square/BE.svg" alt="">
+</p>
