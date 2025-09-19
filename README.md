@@ -14,7 +14,7 @@
 Test 1
 {% endcolumn %}
 
-{% column width="25%" %}
+{% column width="75%" %}
 Test 2
 {% endcolumn %}
 {% endcolumns %}
