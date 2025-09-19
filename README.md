@@ -10,11 +10,11 @@
 {% endcontent-ref %}
 
 {% columns %}
-{% column width="95%" %}
+{% column width="75%" %}
 Test 1
 {% endcolumn %}
 
-{% column width="15%" %}
+{% column width="25%" %}
 Test 2
 {% endcolumn %}
 {% endcolumns %}
