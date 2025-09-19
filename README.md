@@ -1,5 +1,10 @@
 # Page 123
 
+<pre class="language-javascript" data-full-width="true"><code class="lang-javascript"><strong>function thisIsATest() {
+</strong><strong>  console.log(“TEST”);
+</strong><strong>}
+</strong></code></pre>
+
 {% content-ref url="page-1.md" %}
 [page-1.md](page-1.md)
 {% endcontent-ref %}
@@ -78,6 +83,4 @@ Test column 2 def
 
 {% embed url="https://www.figma.com/design/aZsMhSIQp2xgRIDWpvRUqQ/Spine" %}
 
-<p>
-<a href="https://resources.directa24.com/cashin/payment_method/square/BE.svg"><img src="https://content.gitbook.com/content/MbWhFDLCv8vhFXJO5nrL/blobs/7FZbv6RGsiA7Kmo6w1mA/BE.svg" alt="" data-size="line"></a><img src="https://resources.directa24.com/cashin/payment_method/square/BE.svg" alt="">
-</p>
+[<img src="https://content.gitbook.com/content/MbWhFDLCv8vhFXJO5nrL/blobs/7FZbv6RGsiA7Kmo6w1mA/BE.svg" alt="" data-size="line">](https://resources.directa24.com/cashin/payment_method/square/BE.svg)![](https://resources.directa24.com/cashin/payment_method/square/BE.svg)
