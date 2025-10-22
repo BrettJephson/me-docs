@@ -16,6 +16,8 @@ Trees are vital components of the natural environment, functioning as the earth'
 
 Blocks are fundamental elements in programming and design, often used to organize code or content into manageable, reusable units. In programming, a block of code groups together statements that can be executed as a unit, enclosed in braces or other delimiters, enhancing readability and maintainability. In design and web development, blocks can refer to sections of content or layout elements, structured to maintain consistency and modularity. These versatile units are central to building cohesive interfaces and structured codebases, enabling developers and designers to create complex systems with greater efficiency and clarity.
 
+## Title in expandable
+
 </details>
 
 ```

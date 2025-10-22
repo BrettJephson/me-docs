@@ -1,11 +1,9 @@
 # Page 123
 
 <pre class="language-javascript" data-full-width="true"><code class="lang-javascript"><strong>function thisIsATest() {
-</strong><strong>  console.log(“TEgST”);
+</strong><strong>  console.log(“TEST”);
 </strong><strong>}
 </strong></code></pre>
-
-This is a **test**
 
 {% content-ref url="page-1.md" %}
 [page-1.md](page-1.md)
