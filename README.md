@@ -1,9 +1,8 @@
 # Page 123
 
-
 {% code overflow="wrap" %}
-````
-test
+````javascript
+// test
 ```javascript
 function test() { }
 ```
