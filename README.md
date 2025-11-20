@@ -19,6 +19,9 @@ function test() {
 ````
 
 {% code overflow="wrap" %}
+function test() {
+  console.log("TEST");
+}
 ````
 test
 ```javascript
