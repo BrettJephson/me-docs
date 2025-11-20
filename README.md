@@ -1,11 +1,27 @@
 # Page 123
 
+
+{% code overflow="wrap" %}
 ````
 test
 ```javascript
 function test() { }
 ```
 ````
+{% endcode %}
+
+```
+// test
+```
+
+{% code overflow="wrap" %}
+````
+test
+```javascript
+function test() { }
+```
+````
+{% endcode %}
 
 <pre class="language-typescript" data-full-width="true"><code class="lang-typescript"><strong>function thisIsATest() {
 </strong><strong>  console.log("TEgST");
