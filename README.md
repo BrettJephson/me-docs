@@ -1,5 +1,12 @@
 # Page 123
 
+````
+test
+```javascript
+function test() { }
+```
+````
+
 <pre class="language-typescript" data-full-width="true"><code class="lang-typescript"><strong>function thisIsATest() {
 </strong><strong>  console.log("TEgST");
 </strong><strong>}
