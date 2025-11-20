@@ -9,9 +9,14 @@ function test() { }
 ````
 {% endcode %}
 
-```
+````typescript
 // test
 ```
+function test() {
+  // this is a test
+}
+```
+````
 
 {% code overflow="wrap" %}
 ````
