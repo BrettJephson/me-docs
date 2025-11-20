@@ -9,7 +9,7 @@ function () {
 ````typescript
 // test
 ```javascript
-function test() { }
+function test() { const str = "test"; }
 ```
 ```
 `````
