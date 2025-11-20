@@ -2,10 +2,16 @@
 
 {% code overflow="wrap" %}
 `````javascript
+function () {
+  console.log("SOMETHING");
+}
+// test
+````typescript
 // test
 ```javascript
 function test() { }
 ```
+````
 `````
 {% endcode %}
 
