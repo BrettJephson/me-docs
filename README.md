@@ -63,8 +63,8 @@ Test 2
 1. To create secured connection between Kafka Reporter and Kafka Broker, configure your Kafka broker.
 2. As described in the following Kafka documentation, add to your broker configuration JAAS configuration:
 
-* [https://kafka.test.apache.org/documentation/#security\_sasl\_jaasconfig](https://kafka.apache.org/documentation/#security_sasl_jaasconfig)
-* [https://kafka.apache.org/documentation/#security\_sasl\_brokerconfig\_test](https://kafka.apache.org/documentation/#security_sasl_brokerconfig)
+* [https://kafka.test.apache.org/documentation/#security_sasl_jaasconfig](https://kafka.apache.org/documentation/#security_sasl_jaasconfig)
+* [https://kafka.apache.org/documentation/#security_sasl_brokerconfig_test](https://kafka.apache.org/documentation/#security_sasl_brokerconfig)
 
 {% embed url="https://www.figma.com/design/cA9xqRVpcnzxbuUtZSXplF/Untitled?node-id=0-1&p=f&t=aVxI01D68vF2fNZB-0" %}
 
