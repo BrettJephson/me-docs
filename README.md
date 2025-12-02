@@ -1,17 +1,13 @@
 # Page 123
 
-\[some\_link]\([https://www.google.com/link\_to\_something](https://www.google.com/link_to_something))
+{% hint style="info" %}
+#### test
 
-[some\_link](https://www.google.com/link_to_something)
-
-[test](https://www.google.com/link_to_something)\
-[https://www.google.com/link\\\_to\\\_something](https://www.google.com/link/_to/_something)
-
-{% embed url="https://www.google.com/link_to_something" %}
+test
+{% endhint %}
 
 {% code overflow="wrap" %}
 `````javascript
-
 function () {
   console.log("SOMETHING");
 }
@@ -74,9 +70,7 @@ Test 2
 2. As described in the following Kafka documentation, add to your broker configuration JAAS configuration:
 
 * [https://kafka.test.apache.org/documentation/#security\_sasl\_jaasconfig](https://kafka.apache.org/documentation/#security_sasl_jaasconfig)
-* test
 * [https://kafka.apache.org/documentation/#security\_sasl\_brokerconfig\_test](https://kafka.apache.org/documentation/#security_sasl_brokerconfig)
-* tst
 
 {% embed url="https://www.figma.com/design/cA9xqRVpcnzxbuUtZSXplF/Untitled?node-id=0-1&p=f&t=aVxI01D68vF2fNZB-0" %}
 
@@ -84,7 +78,7 @@ Lorem ipsum dolor sit amet, $$f(x) = x * e^{2 pi i \xi x}$$ consectetur [#test-e
 
 Proin venenatis eget massa nec congue. Donec dignissim augue et porta hendrerit. Praesent efficitur purus in libero sodales, quis luctus magna vestibulum. Sed varius mauris dolor, quis fringilla erat faucibus nec. Fusce risus ipsum, molestie eget porta vel, sodales eu ex. Curabitur accumsan ipsum vel tellus scelerisque consectetur. Proin imperdiet arcu ut bibendum malesuada. Curabitur semper pulvinar neque, congue placerat dolor convallis ac.
 
-Test [&#x4C;_&#x69;&#x6E;_&#x6B;](https://www.test.com/_test_test__test) test [page-1.md](page-1.md "mention") test [Brett Jephson](https://app.gitbook-staging.com/u/i5t9RI4CMocinkmgp9IDmgR2xOG2 "mention") test.
+Test [&#x4C;_&#x69;&#x6E;_&#x6B;](https://www.test.com) test [page-1.md](page-1.md "mention") test [Brett Jephson](https://app.gitbook-staging.com/u/i5t9RI4CMocinkmgp9IDmgR2xOG2 "mention") test.
 
 <div data-full-width="true"><figure><img src=".gitbook/assets/Screenshot 2024-12-10 at 17.16.11.png" alt=""><figcaption></figcaption></figure></div>
 
