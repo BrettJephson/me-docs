@@ -1,27 +1,32 @@
+---
+description: Test description
+---
+
 # Page 123
 
-### Test h3 123
+## H1 (should render h2)
+
+### H2 (should render h3)
+
+#### Test h3 123 (should render h4)
 
 {% hint style="info" %}
-### test 123 test
+#### test h3 123 test  (should render h4)
 
 test
 {% endhint %}
 
-{% code overflow="wrap" %}
-`````javascript
-function () {
+<pre class="language-javascript" data-overflow="wrap"><code class="lang-javascript">function test () {
   console.log("SOMETHING");
 }
 // test
 ````typescript
-// test
-```javascript
+<strong>// test
+</strong>```javascript
 function test() { const str = "test"; }
 ```
 ````
-`````
-{% endcode %}
+</code></pre>
 
 ````typescript
 // test
