@@ -1,6 +1,6 @@
 # Deploy in Kubernetes
 
-## Overview
+## Test
 
 This guide explains how to deploy Gravitee Access Management (AM) on Kubernetes using Helm. It is assumed that you are already familiar with Kubernetes terms.
 
