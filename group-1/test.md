@@ -572,7 +572,7 @@ ui:
         drop: ["ALL"]
       seccompProfile:
         type: RuntimeDefault
-````
+```
 {% endcode %}
 
 By setting the value to `null` for `runAsUser` and `runAsGroup` it forces OpenShift to define the correct values for you while deploying the Helm Chart.
