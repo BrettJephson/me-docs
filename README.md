@@ -11,7 +11,8 @@ description: Test description
 #### Test h3 123 (should render h4)
 
 {% code lineNumbers="true" %}
-````json
+````
+```json
 {
   "export": {
     "date": "2025-02-27T14:11:38.684449698Z",
@@ -59,6 +60,7 @@ description: Test description
             "services": {},
             "secondary": true
           }
+```
 ````
 {% endcode %}
 
@@ -137,5 +139,5 @@ function test() { }
     }
     ```The same principle applies to any identity provider.
     ````
-`````
-{% endcode %}
+    `````
+    {% endcode %}
