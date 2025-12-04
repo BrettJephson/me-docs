@@ -85,9 +85,8 @@ function test () {
 function test() { const str = "test"; }
 ```
 ````
-````
-
-</div>
+`````
+{% endcode %}
 
 ````typescript
 // test
@@ -98,16 +97,14 @@ function test() {
 ```
 ````
 
-<div data-gb-custom-block data-tag="code" data-overflow='wrap'>
-
+{% code overflow="wrap" %}
 ````
 test
 ```javascript
 function test() { }
 ```
 ````
-
-</div>
+{% endcode %}
 
 1. Log in.
 2. Click **Settings > Providers**.
