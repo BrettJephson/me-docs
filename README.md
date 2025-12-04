@@ -57,7 +57,7 @@ description: Test description
             },
             "sharedConfigurationOverride": "{}",
             "services": {},
-            "secondary": false
+            "secondary": true
           }
 ```
 {% endcode %}
@@ -86,7 +86,8 @@ function test() { const str = "test"; }
 ```
 ````
 ````
-{% endcode %}
+
+</div>
 
 ````typescript
 // test
@@ -97,14 +98,16 @@ function test() {
 ```
 ````
 
-{% code overflow="wrap" %}
+<div data-gb-custom-block data-tag="code" data-overflow='wrap'>
+
 ````
 test
 ```javascript
 function test() { }
 ```
 ````
-{% endcode %}
+
+</div>
 
 1. Log in.
 2. Click **Settings > Providers**.
@@ -114,13 +117,13 @@ function test() { }
     <figure><img src="https://docs.gravitee.io/images/am/current/graviteeio-am-userguide-idp-user-mappers-phoneno.png" alt=""><figcaption><p>LDAP user mappers</p></figcaption></figure>
 5.  Get the User Profile information via the UserInfo Endpoint and you will see that the new user attribute is present.
 
-    \{% code overflow="wrap" %\}
+    {% code overflow="wrap" %}
 
     ```sh
     curl -X GET http://TEST-HOST/:securityDomainPath/oidc/userinfo -H 'Authorization: Bearer :accessToken'
     ```
 
-    \{% endcode %\}
+    {% endcode %}
 
     If it is working correctly, you will see something like this:
 
@@ -137,3 +140,5 @@ function test() { }
     }
     ```The same principle applies to any identity provider.
     ````
+`````
+{% endcode %}
