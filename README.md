@@ -11,7 +11,6 @@ description: Test description
 #### Test h3 123 (should render h4)
 
 {% code lineNumbers="true" %}
-````
 ```json
 {
   "export": {
@@ -61,7 +60,6 @@ description: Test description
             "secondary": true
           }
 ```
-````
 {% endcode %}
 
 {% hint style="info" %}
