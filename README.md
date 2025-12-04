@@ -20,6 +20,7 @@ test
   console.log("SOMETHING");
 }
 // test
+`````
 ````typescript
 <strong>// test
 </strong>```javascript
