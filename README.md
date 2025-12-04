@@ -11,7 +11,7 @@ description: Test description
 #### Test h3 123 (should render h4)
 
 {% hint style="info" %}
-#### test h3 123 test  (should render h4)
+**test h3 123 test (should render h4)**
 
 test
 {% endhint %}
@@ -51,20 +51,20 @@ function test() { }
 3. Select.
 4.  Map `telephoneNumber` to a new user attribute named `telephone_number`.
 
-
-
     <figure><img src="https://docs.gravitee.io/images/am/current/graviteeio-am-userguide-idp-user-mappers-phoneno.png" alt=""><figcaption><p>LDAP user mappers</p></figcaption></figure>
 5.  Get the User Profile information via the UserInfo Endpoint and you will see that the new user attribute is present.
 
-    {% code overflow="wrap" %}
+    \{% code overflow="wrap" %\}
+
     ```sh
-    curl -X GET http://GRAVITEEIO-AM-GATEWAY-HOST/:securityDomainPath/oidc/userinfo -H 'Authorization: Bearer :accessToken'
+    curl -X GET http://TEST-HOST/:securityDomainPath/oidc/userinfo -H 'Authorization: Bearer :accessToken'
     ```
-    {% endcode %}
+
+    \{% endcode %\}
 
     If it is working correctly, you will see something like this:
 
-    ```sh
+    ````sh
     HTTP/1.1 200 OK
     Content-Type: application/json;charset=UTF-8
     Cache-Control: no-cache, no-store, max-age=0, must-revalidate
@@ -75,6 +75,5 @@ function test() { }
         "family_name": "Doe"
         "telephone_number: "202-555-0105"
     }
-    ```
-
-The same principle applies to any identity provider.
+    ```The same principle applies to any identity provider.
+    ````
