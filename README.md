@@ -16,18 +16,25 @@ description: Test description
 test
 {% endhint %}
 
-<pre class="language-javascript" data-overflow="wrap"><code class="lang-javascript">function test () {
+{% code overflow="wrap" %}
+`````typescript
+````
+function test () {
   console.log("SOMETHING");
 }
 // test
-`````
-````typescript
+
+```typescript
 <strong>// test
-</strong>```javascript
+</strong>
+```
+
+```javascript
 function test() { const str = "test"; }
 ```
 ````
-</code></pre>
+````
+{% endcode %}
 
 ````typescript
 // test
