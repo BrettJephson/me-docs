@@ -234,7 +234,11 @@ Decrements a numeric key by the value of your choice. Requires `key`, and an int
 
 {% tabs %}
 {% tab title="Verbose options" %}
-```liquid {% action "cache" %} { "setex": { "key": "foo", "ttl": 60, "value": 5 } } {% endaction %} ```
+```liquid 
+{% action "cache" %}
+{ "setex": { "key": "foo", "ttl": 60, "value": 5 } }
+{% endaction %}
+```
 {% endtab %}
 
 {% tab title="Positional options" %}
