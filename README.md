@@ -222,11 +222,15 @@ Decrements a numeric key by the value of your choice. Requires `key`, and an int
 
 {% tabs %}
 {% tab title="Verbose options" %}
-```liquid {% action "cache" %} { "set": { "key": "foo", "value": 5 } } {% endaction %} ```
+```liquid 
+{% action "cache" %} { "set": { "key": "foo", "value": 5 } } {% endaction %}
+```
 {% endtab %}
 
 {% tab title="Positional options" %}
-```liquid {% action "cache", "set", "foo", 5 %} ```
+```liquid
+{% action "cache", "set", "foo", 5 %}
+```
 {% endtab %}
 {% endtabs %}
 
@@ -242,7 +246,9 @@ Decrements a numeric key by the value of your choice. Requires `key`, and an int
 {% endtab %}
 
 {% tab title="Positional options" %}
-```liquid {% action "cache", "setex", 60, "foo" %} ```
+```liquid 
+{% action "cache", "setex", 60, "foo" %}
+```
 {% endtab %}
 {% endtabs %}
 
@@ -250,10 +256,14 @@ Decrements a numeric key by the value of your choice. Requires `key`, and an int
 
 {% tabs %}
 {% tab title="Verbose options" %}
-```liquid {% action "cache" %} { "del": { "key": "foo" } } {% endaction %} ```
+```liquid
+{% action "cache" %} { "del": { "key": "foo" } } {% endaction %}
+```
 {% endtab %}
 
 {% tab title="Positional options" %}
-```liquid {% action "cache", "del", "foo" %} ```
+```liquid 
+{% action "cache", "del", "foo" %}
+```
 {% endtab %}
 {% endtabs %}
