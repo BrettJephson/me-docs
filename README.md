@@ -154,7 +154,11 @@ In this option style, the cache command is given as the root key of the options 
 
 {% tabs %}
 {% tab title="Liquid" %}
-```liquid {% action "cache" %} { "incr": { "key": "foo", "ttl": 600 } } {% endaction %} ```
+
+```liquid 
+{% action "cache" %} { "incr": { "key": "foo", "ttl": 600 } } {% endaction %}
+```
+
 {% endtab %}
 {% endtabs %}
 
@@ -164,7 +168,11 @@ In this option style, the cache command and its arguments are given in a list. U
 
 {% tabs %}
 {% tab title="Liquid" %}
-```liquid {% action "cache", "incr", "foo" %} ```
+
+```liquid 
+{% action "cache", "incr", "foo" %}
+```
+
 {% endtab %}
 {% endtabs %}
 
