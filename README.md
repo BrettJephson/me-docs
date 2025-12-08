@@ -248,7 +248,11 @@ Decrements a numeric key by the value of your choice. Requires `key`, and an int
 
 {% tabs %}
 {% tab title="Verbose options" %}
-\`\`\`liquid \{% action "cache" %\} { "del": { "key": "foo" } } \{% endaction %\} \`\`\`
+Test
+
+```liquid
+{% action "cache" %} { "del": { "key": "foo" } } {% endaction %}
+```
 {% endtab %}
 
 {% tab title="Positional options" %}
