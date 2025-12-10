@@ -2,6 +2,7 @@
 
 * [Page 123](README.md)
 * [Page](page-1.md)
+* [Page test](page.md)
 * [Page 2123](page-2.md)
 
 ## Group 1
