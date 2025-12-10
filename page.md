@@ -1,11 +1,20 @@
-# Page
+### Verbose options
+
+In this option style, the cache command is given as the root key of the options object. The root value is itself an option, containing the arguments needed for the selected cache command.
 
 {% tabs %}
-{% tab title="Second Tab" %}
-Test
-{% endtab %}
+{% tab title="Liquid" %}
 
-{% tab title="Untitledtest " %}
-Test
+```liquid
+{% action "cache" %}
+  {
+    "incr": {
+      "key": "foo",
+      "ttl": 600
+    }
+  }
+{% endaction %}
+```
+
 {% endtab %}
 {% endtabs %}
