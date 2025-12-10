@@ -2,7 +2,7 @@
 
 In this option style, the cache command is given as the root key of the options object. The root value is itself an option, containing the arguments needed for the selected cache command.
 
-Test
+Test 123
 
 {% tabs %}
 {% tab title="Liquid" %}
