@@ -4,7 +4,7 @@ description: >-
   Express (Verifone POS).
 ---
 
-# Page Test 123
+# Page test
 
 ***
 
@@ -41,11 +41,11 @@ Selecting an `Healthcare` option will take the merchant to the Healthcare breakd
 ***
 
 {% columns %}
-{% column width="33.33333333333333%" %}
+{% column %}
 
 {% endcolumn %}
 
-{% column width="66.66666666666667%" %}
+{% column %}
 **Description**
 
 The total transaction amount entered on the initial screen is displayed here. As the merchant selects each of the category and updates the amount the remaining amount gets distributed accordingly.
@@ -75,11 +75,11 @@ Updating the amount in any healthcare category automatically reallocates the cor
 ***
 
 {% columns %}
-{% column width="33.33333333333333%" %}
+{% column %}
 
 {% endcolumn %}
 
-{% column width="66.66666666666667%" %}
+{% column %}
 **Description**
 
 Initiating a transaction after healthcare amount allocation.
