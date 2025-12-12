@@ -1,9 +1,9 @@
 # Table of contents
 
-* [Page 123](README.md)
-* [Page](page-1.md)
-* [Page test](page.md)
-* [Page 2123](page-2.md)
+* [Page Main](README.md)
+* [Page 1](page-1.md)
+* [Page 2](page.md)
+* [Page 3](page-2.md)
 
 ## Group 1
 
