@@ -1,105 +1,132 @@
 ---
-description: >-
-  This page details how the healthcare amounts breakdown is handled in Connect
-  Express (Verifone POS).
+description: Installation guide for Set Up Your First Application.
 ---
 
-# Page test this is a test
-test
-test
+# Set Up Your First Application
 
-***
+## Overview
 
-{% columns %}
-{% column width="33.33333333333333%" %}
-Test
-{% endcolumn %}
+This section walks you through creating your first application. For more detailed instructions, see the [Guides section.](../../guides/prologue.md)
 
-{% column width="66.66666666666667%" %}
-**Description**
+In this example, we will:
 
-Merchant is prompted to select a transaction option.
+* Create a security domain for the application
+* Create a new web application
+* Create a new identity provider and associate it with the application
+* Test the application
 
-Healthcare option is only enabled when the business type is set to `Healthcare` and at least one of the healthcare amount categories in enabled in VPOS.
+## Create a security domain
 
-**Merchant/Customer action**
+A _security domain_ is a series of security policies that apply to a set of applications that all share common security mechanisms for authentication, authorization, and identity management.
 
-Selecting an `Healthcare` option will take the merchant to the Healthcare breakdown screen.
+{% hint style="info" %}
+You only need to create a new security domain for an application when you do not have a suitable domain configured already. You can find a list of security domains in your user menu.
+{% endhint %}
 
-**Configuration Parameters**
+### Create a domain with AM Console
 
-`Merchant.MerchantBusinessType` - To enable Healthcare options, merchant business type should be set to 2 (Healthcare).
+1. Login to AM Console.
+2.  From the user menu at the top right, click **Create domain**.
 
-`Application.healthcare_enable_prescription` - When enabled, the healthcare amount breakdown includes prescription category.
+    <figure><img src="https://docs.gravitee.io/images/am/current/quickstart-create-domain.png" alt=""><figcaption><p>Create a security domain</p></figcaption></figure>
+3.  Give your security domain a **Name** and a **Description** and click **CREATE**.
 
-`Application.healthcare_enable_vision` - When enabled, the healthcare amount breakdown includes vision category.
+    <figure><img src="https://docs.gravitee.io/images/am/current/quickstart-create-domain2.png" alt=""><figcaption><p>Define your security domain</p></figcaption></figure>
+4.  Select the **click here** link on the banner to enable the domain.
 
-`Application.healthcare_enable_clinic` - When enabled, the healthcare amount breakdown includes clinic category.
+    <figure><img src="https://docs.gravitee.io/images/am/current/quickstart-enable-domain.png" alt=""><figcaption><p>Banner to enable domain</p></figcaption></figure>
 
-`Application.healthcare_enable_dental` - When enabled, the healthcare amount breakdown includes dental category.
-{% endcolumn %}
-{% endcolumns %}
+### Create a domain with AM API
 
-***
+{% code overflow="wrap" %}
+```sh
+# create domain
+$ curl -H "Authorization: Bearer :accessToken" \
+     -H "Content-Type:application/json;charset=UTF-8" \
+     -X POST \
+     -d '{"name":"My First Security Domain","description":"My First Security Domain description"}' \
+     http://GRAVITEEIO-AM-MGT-API-HOST/management/organizations/DEFAULT/environments/DEFAULT/domains
 
-{% columns %}
-{% column %}
+# enable domain
+$ curl -H "Authorization: Bearer :accessToken" \
+     -H "Content-Type:application/json;charset=UTF-8" \
+     -X PATCH \
+     -d '{"enabled": true}' \
+     http://GRAVITEEIO-AM-MGT-API-HOST/management/organizations/DEFAULT/environments/DEFAULT/domains/:domainId
+```
+{% endcode %}
 
-{% endcolumn %}
+## Create an application
 
-{% column %}
-**Description**
+Before you can work with AM Gateway, you must create an _application_. The application will provide the necessary information (such as the client ID and client Secret) for authentication and authorization. The application can be a native mobile app, a single page front-end web application or a regular web application that executes on a server.
 
-The total transaction amount entered on the initial screen is displayed here. As the merchant selects each of the category and updates the amount the remaining amount gets distributed accordingly.
+In this example, we will create a regular web application.
 
-**Merchant/Customer action**
+1. Click **Applications**.
+2. In the Applications page, click the plus icon ![plus icon](https://docs.gravitee.io/images/icons/plus-icon.png).
+3.  Choose a **Web** application type.
 
-Merchant distributes the total transaction amount in the corresponding healthcare categories.
+    <figure><img src="https://docs.gravitee.io/images/am/current/quickstart-create-application.png" alt=""><figcaption><p>Select application type</p></figcaption></figure>
+4. Click the **Next** button.
+5.  Give your application a **Name** and a **Redirect URI** (with HTTPS scheme and non-localhost) and click the **Create** button.
 
-Selecting any category, would open up a numeric pad to enter amount.
+    <figure><img src="https://docs.gravitee.io/images/am/current/quickstart-create-application2.png" alt=""><figcaption><p>Application settings</p></figcaption></figure>
 
-Updating the amount in any healthcare category automatically reallocates the corresponding amount from the non-healthcare portion to that category.
+{% hint style="info" %}
+This application will be used by end users, so we need to bind them with an identity provider.
+{% endhint %}
 
-**Configuration Parameters**
+## Create an identity provider
 
-`Merchant.MerchantBusinessType` - To enable Healthcare options, merchant business type should be set to 2 (Healthcare).
+An _identity provider_ (IdP) is usually a service used to authenticate and communicate authorization and user information. It can be a social provider like Facebook, Google, or Twitter, an enterprise provider such as Active Directory, or a custom provider such as a database.
 
-`Application.healthcare_enable_prescription` - When enabled, the healthcare amount breakdown includes prescription category.
+In this example, we will create an In-memory identity provider with an inline user configuration.
 
-`Application.healthcare_enable_vision` - When enabled, the healthcare amount breakdown includes vision category.
+1. Click **Settings > Providers**.
+2. In the Identity Providers page, click the plus icon ![plus icon](https://docs.gravitee.io/images/icons/plus-icon.png).
+3.  Choose **Inline** and click **Next**.
 
-`Application.healthcare_enable_clinic` - When enabled, the healthcare amount breakdown includes clinic category.
+    <figure><img src="https://docs.gravitee.io/images/am/current/graviteeio-am-quickstart-idp-type.png" alt=""><figcaption><p>IdP selection</p></figcaption></figure>
+4.  Give your identity provider a **Name** and enter the user details, then click **Create**.
 
-`Application.healthcare_enable_dental` - When enabled, the healthcare amount breakdown includes dental category.
-{% endcolumn %}
-{% endcolumns %}
+    {% code overflow="wrap" %}
+    ```sh
+    curl -H "Authorization: Bearer :accessToken" \
+        -H "Content-Type:application/json;charset=UTF-8" \
+        -X POST \
+        -d '{
+            "external": false,
+            "type": "inline-am-idp",
+            "configuration": "{\"users\":[{\"firstname\":\"John\",\"lastname\":\"Doe\",\"username\":\"johndoe\",\"password\":\"johndoepassword\"}]}",
+            "name": "Inline IdP"
+            }' \
+        http://GRAVITEEIO-AM-MGT-API-HOST/management/organizations/DEFAULT/environments/DEFAULT/domains/:securityDomainPath/identities
+    ```
+    {% endcode %}
 
-***
+    <figure><img src="https://docs.gravitee.io/images/am/current/graviteeio-am-quickstart-create-idp.png" alt=""><figcaption><p>Configure your IdP</p></figcaption></figure>
+5. Click **Applications** and select your web application. 
+6.  In the **Identity Providers** tab, select **Inline identity provider** and click **SAVE**.
 
-{% columns %}
-{% column %}
+<figure><img src="https://docs.gravitee.io/images/am/current/graviteeio-am-quickstart-client-idp.png" alt=""><figcaption><p>Select IdP for application</p></figcaption></figure>
 
-{% endcolumn %}
+## Test your identity provider with OAuth2
 
-{% column %}
-**Description**
+You can now test your identity provider by requesting a token, as described in[ ID Token in the next section.](get-user-profile-information.md#id-token)
 
-Initiating a transaction after healthcare amount allocation.
+## Initiate the login flow
 
-**Merchant/Customer action**
+In the case of a **Web Application**, **Single Page Application** or **Native Application**, you can decide also to redirect your end users to an AM login page:
 
-After allocating the amounts in their categories the merchant has the option to to hit `Card` to proceed with a sale, or to hit `Other` to proceed with other eligible options such as refunds, manual entry flow or pre-authorization (if enabled).
+1. Click **Applications** and select your web application.
+2. In the **Overview** tab, get to the **Initiate the Login flow** section and copy the given URL
 
-**Configuration Parameters**
+<figure><img src="https://docs.gravitee.io/images/am/current/graviteeio-am-quickstart-client-initiate-the-login-flow.png" alt=""><figcaption><p>Copy redirect URL</p></figcaption></figure>
 
-`Merchant.MerchantBusinessType` - To enable Healthcare options, merchant business type should be set to 2 (Healthcare).
+You will be redirected to the Login page where you can enter the credentials configured in the Identity Provider.
 
-`Application.healthcare_enable_prescription` - When enabled, the healthcare amount breakdown includes prescription category.
+<figure><img src="https://docs.gravitee.io/images/am/current/graviteeio-am-quickstart-client-login-page.png" alt=""><figcaption><p>Login page for IdP</p></figcaption></figure>
 
-`Application.healthcare_enable_vision` - When enabled, the healthcare amount breakdown includes vision category.
+Once logged in you will be redirected to the configured `redirect_uri` with the correct parameters regarding your OAuth2 configuration.
 
-`Application.healthcare_enable_clinic` - When enabled, the healthcare amount breakdown includes clinic category.
-
-`Application.healthcare_enable_dental` - When enabled, the healthcare amount breakdown includes dental category.
-{% endcolumn %}
-{% endcolumns %}
+To fine-grain tune your application, you can check in detail the [User Guide.](../../guides/prologue.md)
