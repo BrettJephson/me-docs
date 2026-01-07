@@ -15,7 +15,7 @@ This is a test?
   {
     "incr": {
       "key": "foo",
-      "ttl": 602
+      "ttl": 603
     }
   }
 {% endaction %}
