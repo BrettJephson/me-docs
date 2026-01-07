@@ -11,7 +11,7 @@ description: Test description
   {
     "incr": {
       "key": "foo",
-      "ttl": 601
+      "ttl": 602
     }
   }
 {% endaction %}
