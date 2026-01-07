@@ -8,9 +8,8 @@ This is a test?
 
 {% tabs %}
 {% tab title="Liquid" %}
+T
 
-
-\
 ```liquid
 {% action "cache" %}
   {
@@ -21,6 +20,7 @@ This is a test?
   }
 {% endaction %}
 ```
-\
+
+P
 {% endtab %}
 {% endtabs %}
