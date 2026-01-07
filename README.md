@@ -15,7 +15,7 @@ T
   {
     "incr": {
       "key": "foo",
-      "ttl": 605
+      "ttl": 606
     }
   }
 {% endaction %}
