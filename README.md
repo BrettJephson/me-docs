@@ -8,19 +8,15 @@ This is a test?
 
 {% tabs %}
 {% tab title="Liquid" %}
-
-
 ```liquid
 {% action "cache" %}
   {
     "incr": {
       "key": "foo",
-      "ttl": 603
+      "ttl": 604
     }
   }
 {% endaction %}
 ```
-
-
 {% endtab %}
 {% endtabs %}
