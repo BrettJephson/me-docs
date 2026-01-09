@@ -6,6 +6,12 @@ description: Test description
 
 This is a test?
 
+|      |                                                                                                                                                                                                           |   |
+| ---- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | - |
+| Test | <p>Test:</p><table><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr></tbody></table> |   |
+|      |                                                                                                                                                                                                           |   |
+|      |                                                                                                                                                                                                           |   |
+
 {% tabs %}
 {% tab title="Liquid" %}
 T
