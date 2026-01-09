@@ -34,7 +34,7 @@ Test 2
 
 {% tabs %}
 {% tab title="Not Liquid" %}
-Test 2
+&#x20;
 
 ```actionscript-3
 function test() {
