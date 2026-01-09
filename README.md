@@ -13,7 +13,7 @@ This is a test?
 
 {% tabs %}
 {% tab title="Liquid" %}
-T
+
 
 ```liquid
 {% action "cache" %}
@@ -26,6 +26,20 @@ T
 {% endaction %}
 ```
 
-P
+
+{% endtab %}
+{% endtabs %}
+
+{% tabs %}
+{% tab title="Not Liquid" %}
+
+
+```actionscript-3
+function test() {
+    // test
+}
+```
+
+
 {% endtab %}
 {% endtabs %}
