@@ -6,14 +6,16 @@ description: Test description
 
 This is a test?
 
-|                      |           |   |
-| -------------------- | --------- | - |
+|                      |            |   |
+| -------------------- | ---------- | - |
 | Test                 | Test 1234: |   |
-| Test 123 test `code` |           |   |
+| Test 123 test `code` |            |   |
+
+
 
 {% tabs %}
 {% tab title="Liquid" %}
-
+Test 1
 
 ```liquid
 {% action "cache" %}
@@ -26,13 +28,13 @@ This is a test?
 {% endaction %}
 ```
 
-
+Test 2
 {% endtab %}
 {% endtabs %}
 
 {% tabs %}
 {% tab title="Not Liquid" %}
-
+Test 2
 
 ```actionscript-3
 function test() {
@@ -40,6 +42,6 @@ function test() {
 }
 ```
 
-
+Test 23
 {% endtab %}
 {% endtabs %}
