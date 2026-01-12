@@ -6,12 +6,8 @@ description: Test description
 
 This is a test? Test 125
 
-|                      |                                                                                                             |                                             |
-| -------------------- | ----------------------------------------------------------------------------------------------------------- | ------------------------------------------- |
-| Test                 | Test 1234:                                                                                                  |                                             |
-| Test 123 test `code` | <div data-gb-custom-block data-tag="hint" data-style="info" class="hint hint-info"><p>test 12345</p></div> | <blockquote><p>test</p></blockquote> |
-
-
+<table><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td>Test</td><td>Test 1234:</td><td><pre class="language-typescript"><code class="lang-typescript">// Code block
+</code></pre></td></tr><tr><td>Test 123 test <code>code</code></td><td><div data-gb-custom-block data-tag="hint" data-style="info" class="hint hint-info"><p>test 12345</p></div></td><td><blockquote><p>test</p></blockquote></td></tr></tbody></table>
 
 {% tabs %}
 {% tab title="Liquid" %}
@@ -34,8 +30,6 @@ Test 2
 
 {% tabs %}
 {% tab title="Not Liquid" %}
-&#x20;
-
 ```actionscript-3
 function test() {
     // test 223
