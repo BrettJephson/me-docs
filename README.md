@@ -6,7 +6,7 @@ description: Test description
 
 This is a test? Test 125
 
-<table><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td>Test</td><td>Test 1234:</td><td><pre class="language-typescript"><code class="lang-typescript">// Code block
+<table><thead><tr><th></th><th width="249.99609375"></th><th></th></tr></thead><tbody><tr><td>Test</td><td><h3>Test 1234</h3><div data-gb-custom-block data-tag="hint" data-style="info" class="hint hint-info"><p>Test</p></div></td><td><pre class="language-typescript"><code class="lang-typescript">// Code block
 </code></pre></td></tr><tr><td>Test 123 test <code>code</code></td><td><div data-gb-custom-block data-tag="hint" data-style="info" class="hint hint-info"><p>test 12345</p></div></td><td><blockquote><p>test</p></blockquote></td></tr></tbody></table>
 
 {% tabs %}
