@@ -17,19 +17,48 @@ test
 </code></pre></td></tr><tr><td>Test 123 test <code>code</code></td><td><div data-gb-custom-block data-tag="hint" data-style="info" class="hint hint-info"><p>test 12345</p></div></td><td><blockquote><p>test</p></blockquote></td></tr></tbody></table>
 
 TESTING:
+# Data types
+
+In Liquid, different kinds of data have different **types**. Each type describes the nature of its data.
 
 {% hint style="warning" %}
-The test 123 [Shopify variables](code/environment-variables.md#shopify-variables) available to tasks always contain data drawn from the event itself. If a task has a offset event subscription, this data may be outdated by the time the task runs. The [Shopify variables](code/environment-variables.md#shopify-variables) available to tasks always contain data drawn from the event itself. If a task has a offset event subscription, this data may be outdated by the time the task runs.
+Some of the documentation below is specific to Mechanic Liquid, and may not apply to Shopify Liquid, or to other Liquid implementations.
+{% endhint %}
 
-To test the data in a Shopify variable, use something like this:
+## String
+
+A string contains a series of characters, forming text.
 
 ```liquid
-{% unless event.preview %}
-  {% assign customer = customer.reload %}
-{% endunless %}
+{% assign my_name = "Matt" %}
 ```
 
-Remember, Mechanic does not permit access to the Shopify API during [event preview](previews/). Using this `unless` statement ensures that reloading only happens during a live event.
+## Integer, Float
+
+Liquid supports both two number types: integers (whole numbers) and floats (numbers having decimal precision).
+
+```liquid
+{% assign a_int = 99 %}
+{% assign a_float = 99.99 %}
+```
+
+## Boolean
+
+```liquid
+{% assign is_mechanic_awesome = true %}
+{% assign is_it_warm_outside = false %}
+```
+
+## Nil
+
+Borrowing from [Ruby's concept of nil](https://www.rubyguides.com/2018/01/ruby-nil/), Liquid's `nil` is an empty value that is returned when Liquid code has no results. It evaluates to `false` in conditionals statements, and outputs nothing when printing out text.
+
+{% hint style="warning" %}
+If a variable reference comes up missing, Liquid will silently use `nil` instead _without_ raising an error.
+{% endhint %}
+
+{% hint style="info" %}
+In Liquid, `null` is not a keyword literal. But, because `null` is also typically not used as a variable name in Mechanic Liquid code, and because Liquid uses `nil` when a variable is not found, it works out: `{% assign foo = null %}` results in assigning `foo` a value of `nil`. (Unless, of course, `null` was previously assigned to something else, e.g. `{% assign null = "something else" %}`.)
 {% endhint %}
 
 {% tabs %}
