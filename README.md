@@ -4,20 +4,21 @@ description: Test description
 
 # Page Main
 
+## Page Main
+
 This is a test? Test 125 <a class="button primary">Buttontest</a>\
 test
 
-## tThis is a test? Test 12
+### tThis is a test? Test 12
 
 test
 
-
-
-<table><thead><tr><th></th><th width="249.99609375"></th><th></th></tr></thead><tbody><tr><td>Test</td><td><h4>Test 1234</h4><div data-gb-custom-block data-tag="hint" data-style="info" class="hint hint-info"><p>Test</p></div></td><td><pre class="language-typescript"><code class="lang-typescript">// Code block
+<table><thead><tr><th></th><th width="249.99609375"></th><th></th></tr></thead><tbody><tr><td>Test</td><td><p><strong>Test 1234</strong></p><div data-gb-custom-block data-tag="hint" data-style="info" class="hint hint-info"><p>Test</p></div></td><td><pre class="language-typescript"><code class="lang-typescript">// Code block
 </code></pre></td></tr><tr><td>Test 123 test <code>code</code></td><td><div data-gb-custom-block data-tag="hint" data-style="info" class="hint hint-info"><p>test 12345</p></div></td><td><blockquote><p>test</p></blockquote></td></tr></tbody></table>
 
-TESTING:
-# Data types
+TESTING 123:
+
+## Data types
 
 In Liquid, different kinds of data have different **types**. Each type describes the nature of its data.
 
@@ -25,7 +26,7 @@ In Liquid, different kinds of data have different **types**. Each type describes
 Some of the documentation below is specific to Mechanic Liquid, and may not apply to Shopify Liquid, or to other Liquid implementations.
 {% endhint %}
 
-## String
+### String
 
 A string contains a series of characters, forming text.
 
@@ -33,7 +34,7 @@ A string contains a series of characters, forming text.
 {% assign my_name = "Matt" %}
 ```
 
-## Integer, Float
+### Integer, Float
 
 Liquid supports both two number types: integers (whole numbers) and floats (numbers having decimal precision).
 
@@ -42,14 +43,14 @@ Liquid supports both two number types: integers (whole numbers) and floats (numb
 {% assign a_float = 99.99 %}
 ```
 
-## Boolean
+### Boolean
 
 ```liquid
 {% assign is_mechanic_awesome = true %}
 {% assign is_it_warm_outside = false %}
 ```
 
-## Nil
+### Nil
 
 Borrowing from [Ruby's concept of nil](https://www.rubyguides.com/2018/01/ruby-nil/), Liquid's `nil` is an empty value that is returned when Liquid code has no results. It evaluates to `false` in conditionals statements, and outputs nothing when printing out text.
 
