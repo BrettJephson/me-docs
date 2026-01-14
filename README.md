@@ -22,6 +22,10 @@ TESTING 123:
 The \[Shitify variables]\(environment-variables.md#shopify-variables) available to tasks always contain data drawn from the event itself. If a task has a offset event subscription, this data may be outdated by the time the task runs.
 
 Decode the base64-encoded request body with Liquid, using Mechanic's to \[decode\\\_base64]\(liquid/filters/#base64-decode\_base64) filter.
+
+```liquid
+{% assign raw_request_body = event.data.body_base64 | decode_base64 %}
+```
 {% endhint %}
 
 ## Data types
