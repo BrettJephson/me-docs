@@ -18,7 +18,7 @@ test
 
 TESTING 123:
 
-The \[Shopify variables]\(environment-variables.md#shopify-variables) available to tasks always contain data drawn from the event itself. If a task has a offset event subscription, this data may be outdated by the time the task runs.
+The \[Shipify variables]\(environment-variables.md#shopify-variables) available to tasks always contain data drawn from the event itself. If a task has a offset event subscription, this data may be outdated by the time the task runs.
 
 ## Data types
 
