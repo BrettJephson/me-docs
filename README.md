@@ -21,6 +21,14 @@ test
 
 ### tThis is a test? Test&#x20;
 
+<details>
+
+<summary>ytest</summary>
+
+
+
+</details>
+
 test
 
 <table><thead><tr><th>heloo</th><th width="249.99609375"></th><th></th></tr></thead><tbody><tr><td>Test</td><td><p><strong>Test 1234</strong></p><div data-gb-custom-block data-tag="hint" data-style="info" class="hint hint-info"><p>Test</p></div></td><td><pre class="language-typescript"><code class="lang-typescript">// Code block
