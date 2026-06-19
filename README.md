@@ -19,7 +19,13 @@ description: Test description
 This is a test? Test 125 <a class="button primary">Buttontest</a>\
 test
 
-### tThis is a test? Test&#x20;
+### tThis is a test? Test
+
+{% prompt description="Some AI prompt or other" icon="3" %}
+```markdown
+This is a test
+```
+{% endprompt %}
 
 <details>
 
