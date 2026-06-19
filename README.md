@@ -27,6 +27,12 @@ This is a test 123
 ```
 {% endprompt %}
 
+{% prompt description="Some AI prompt or other 1234" icon="3" openInAIProviders="false" %}
+```markdown
+This is a test 1234
+```
+{% endprompt %}
+
 <details>
 
 <summary>ytest</summary>
