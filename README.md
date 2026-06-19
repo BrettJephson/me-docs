@@ -21,7 +21,7 @@ test
 
 ### tThis is a test? Test
 
-{% prompt description="Some AI prompt or other 123" icon="3" %}
+{% prompt description="Some AI prompt or other 123" icon="3" openInAIProviders="true" %}
 ```markdown
 This is a test 123
 ```
