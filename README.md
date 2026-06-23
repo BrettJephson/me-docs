@@ -21,13 +21,13 @@ test
 
 ### tThis is a test? Test
 
-{% prompt description="Some AI prompt or other 123" icon="3" openInAIProviders="true" %}
+{% prompt description="Some AI prompt or other 12343" icon="3" openInAIProviders="true" %}
 ```markdown
-This is a test 123
+This is a test 12345
 ```
 {% endprompt %}
 
-{% prompt description="Some AI prompt or other 1234" icon="3" openInAIProviders="false" %}
+{% prompt description="Some AI prompt or other 1234" icon="tent-double-peak" openInAIProviders="false" %}
 ```markdown
 This is a test 1234
 ```
